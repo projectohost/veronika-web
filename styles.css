@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+}
+
+.card img{
+    width: 250px;
+    height: 130px;
+}
+
+.card{
+    overflow: hidden;
+}
+
+.authors {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.authors h2 {
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.author {
+  text-align: center;
+  margin: 15px;
+  max-width: 250px;
+}
+
+.author-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.author h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.author p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.author img{
+    width: 150px;
+    height: 150px;
+}
